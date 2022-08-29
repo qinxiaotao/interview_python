@@ -19,3 +19,7 @@ docker 是一个虚拟机
 
 5. docker的底层技术
   namespace 和 group
+
+docker python install
+
+Advanced Packaging Tool  apt
