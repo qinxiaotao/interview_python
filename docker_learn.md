@@ -23,3 +23,15 @@ docker 是一个虚拟机
 docker python install
 
 Advanced Packaging Tool  apt
+
+# syntax=docker/dockerfile:1 什么意思
+ this directive instructs the Docker builder what syntax to use when parsing the Dockerfile, and allows older Docker versions with BuildKit enabled to upgrade the parser before starting the build.
+
+
+ FROM python:3.8-slim-buster
+ we need to add a line in our Dockerfile that tells Docker what base image we would like to use for our application.
+ 
+ WORKDIR /app
+  let’s create a working directory. This instructs Docker to use this path as the default location for all subsequent commands.
+  
+  docker build --tag python-docker . tag:set the name of image
