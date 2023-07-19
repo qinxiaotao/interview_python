@@ -1,1 +1,8 @@
 1.  # Python3 code to demonstrate conversion of lists to dictionary using naive method
+
+```
+    list1 = ['a','b','c']
+    list2 = [1,2,3]
+    c = dict(zip(list1,list2))
+    print(c)
+```
